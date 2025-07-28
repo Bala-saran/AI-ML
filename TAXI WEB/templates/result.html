@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #e6f2ff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 400px;
+            background-color: #ffffff;
+            margin: 80px auto;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+        }
+        .prediction {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333333;
+        }
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #28a745;
+            padding: 10px 20px;
+            border-radius: 6px;
+        }
+        a:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Predicted Fare</h1>
+        <div class="prediction">
+            ${{ prediction }}
+        </div>
+        <a href="/">Predict Another</a>
+    </div>
+</body>
+</html>
