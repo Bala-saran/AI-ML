@@ -1,0 +1,4 @@
+invoice_id,vendor,amount,date,category,payment_term,is_fraud
+INV001,Vendor A,10500,2023-01-15,Consulting,30,0
+INV002,Vendor B,250000,2023-01-20,Hardware,60,1
+...
